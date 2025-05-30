@@ -812,7 +812,8 @@
 
   <script src="https://www.google.com/recaptcha/api.js?render=6Lf_RFArAAAAAHC2brs4SMTE0G4HEv0w1MZ2Oifv"></script>
 
-  <script>
+
+<script>
     const RATE_LIMIT_SECONDS = 60;
     const LAST_SUBMIT_KEY = "last_submit_time";
 
@@ -831,7 +832,7 @@
 
       grecaptcha.ready(function () {
         grecaptcha.execute('6Lf_RFArAAAAAHC2brs4SMTE0G4HEv0w1MZ2Oifv', { action: 'submit' }).then(function (token) {
-          onSubmit("6Lf_RFArAAAAAHC2brs4SMTE0G4HEv0w1MZ2Oifv");
+          onSubmit(token);
         }).catch(err => {
           console.error("CAPTCHA execution failed:", err);
           document.getElementById('formMessage').innerText = "CAPTCHA failed. Try again.";
