@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  
+  <title>CRM Dashboard - Manage Your Customers Effectively</title>
+  <meta name="description" content="A powerful and intuitive CRM system to manage your customers, sales, and interactions all in one place.">
+  <meta name="keywords" content="CRM, customer management, sales tracking, client database, CRM dashboard, lead management">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Project: CRM System
+  * Description: Responsive CRM template for managing customers and sales.
+  * Author: YourCompanyName
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+  <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+    <a href="index.html" class="logo d-flex align-items-center me-auto">
+      <!-- Use an image logo if available -->
+      <!-- <img src="assets/img/logo.png" alt="CRM Logo"> -->
+      <h1 class="sitename">CRMSystem</h1>
+    </a>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#dashboard" class="active">Dashboard</a></li>
+        <li><a href="#leads">Leads</a></li>
+        <li><a href="#customers">Customers</a></li>
+        <li><a href="#sales">Sales</a></li>
+        <li><a href="#reports">Reports</a></li>
+        <li class="dropdown"><a href="#"><span>More</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <ul>
+            <li><a href="#tasks">Tasks</a></li>
+            <li><a href="#support">Support</a></li>
+            <li><a href="#settings">Settings</a></li>
+          </ul>
+        </li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+    </nav>
+
+    <a class="cta-btn" href="#get-started">Get Started</a>
+
+  </div>
+</header>
+
+
+   <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 hero-content">
+                        <h1 data-aos="fade-up">Transform Your Customer Relationships</h1>
+                        <p data-aos="fade-up" data-aos-delay="200">
+                            Streamline your sales process, boost customer satisfaction, and grow your business with our comprehensive CRM solution.
+                        </p>
+                        <div class="d-flex gap-3 flex-wrap" data-aos="fade-up" data-aos-delay="400">
+                            <a href="#demo" class="btn btn-primary btn-lg">Start Free Trial</a>
+                            <a href="#features" class="btn btn-outline-light btn-lg">
+                                <i class="bi bi-play-circle me-2"></i>Watch Demo
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+                        <div class="text-center">
+                            <div style="width: 100%; height: 400px; background: rgba(255,255,255,0.1); border-radius: 20px; display: flex; align-items: center; justify-content: center;">
+                                <i class="bi bi-graph-up-arrow" style="font-size: 120px; color: rgba(255,255,255,0.8);"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="section">
+            <div class="container">
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Powerful CRM Features</h2>
+                    <p>Everything you need to manage customer relationships and grow your business</p>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="bi bi-people"></i>
+                            </div>
+                            <h4>Contact Management</h4>
+                            <p>Centralize all customer information, track interactions, and maintain detailed contact profiles with ease.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="bi bi-graph-up"></i>
+                            </div>
+                            <h4>Sales Pipeline</h4>
+                            <p>Visualize your sales process, track deals through stages, and forecast revenue with advanced analytics.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="bi bi-calendar-check"></i>
+                            </div>
+                            <h4>Task Automation</h4>
+                            <p>Automate repetitive tasks, set reminders, and streamline workflows to boost productivity.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="bi bi-envelope"></i>
+                            </div>
+                            <h4>Email Integration</h4>
+                            <p>Sync emails, track communications, and manage campaigns directly from your CRM platform.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="bi bi-bar-chart"></i>
+                            </div>
+                            <h4>Advanced Reports</h4>
+                            <p>Generate comprehensive reports, analyze performance metrics, and make data-driven decisions.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="bi bi-phone"></i>
+                            </div>
+                            <h4>Mobile Access</h4>
+                            <p>Access your CRM on-the-go with our mobile app, sync data across all devices seamlessly.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats-section section">
+            <div class="container" data-aos="fade-up">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stat-item">
+                            <div class="stat-number">50K+</div>
+                            <div class="stat-label">Happy Customers</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stat-item">
+                            <div class="stat-number">2.5M+</div>
+                            <div class="stat-label">Contacts Managed</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stat-item">
+                            <div class="stat-number">99.9%</div>
+                            <div class="stat-label">Uptime Guarantee</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stat-item">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">Customer Support</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="section">
+            <div class="container">
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Simple, Transparent Pricing</h2>
+                    <p>Choose the perfect plan for your business needs</p>
+                </div>
+
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="pricing-card">
+                            <h4>Starter</h4>
+                            <div class="price">$29<small>/month</small></div>
+                            <p>Perfect for small teams</p>
+                            <ul class="list-unstyled mt-4">
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Up to 1,000 contacts</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Basic reporting</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Email support</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Mobile app access</li>
+                            </ul>
+                            <button class="btn btn-outline-primary w-100 mt-4">Get Started</button>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="pricing-card featured">
+                            <div class="badge bg-primary position-absolute top-0 start-50 translate-middle px-3 py-2">Most Popular</div>
+                            <h4>Professional</h4>
+                            <div class="price">$79<small>/month</small></div>
+                            <p>Best for growing businesses</p>
+                            <ul class="list-unstyled mt-4">
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Up to 10,000 contacts</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Advanced reporting</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Priority support</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Automation tools</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>API access</li>
+                            </ul>
+                            <button class="btn btn-primary w-100 mt-4">Get Started</button>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="pricing-card">
+                            <h4>Enterprise</h4>
+                            <div class="price">$199<small>/month</small></div>
+                            <p>For large organizations</p>
+                            <ul class="list-unstyled mt-4">
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Unlimited contacts</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Custom reporting</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Dedicated support</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Advanced security</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Custom integrations</li>
+                            </ul>
+                            <button class="btn btn-outline-primary w-100 mt-4">Contact Sales</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="section light-background">
+            <div class="container">
+                <div class="section-title" data-aos="fade-up">
+                    <h2>What Our Customers Say</h2>
+                    <p>Trusted by thousands of businesses worldwide</p>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="testimonial-card">
+                            <div class="testimonial-avatar"></div>
+                            <div class="stars mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p>"CRMPro has transformed how we manage our customer relationships. Our sales have increased by 40% since implementation."</p>
+                            <h5>Sarah Johnson</h5>
+                            <small class="text-muted">CEO, TechStart Inc.</small>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="testimonial-card">
+                            <div class="testimonial-avatar"></div>
+                            <div class="stars mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p>"The automation features have saved us countless hours. We can now focus on what matters most - our customers."</p>
+                            <h5>Michael Chen</h5>
+                            <small class="text-muted">Sales Director, Global Solutions</small>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="testimonial-card">
+                            <div class="testimonial-avatar"></div>
+                            <div class="stars mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p>"Outstanding support and intuitive interface. Our team was up and running within days, not weeks."</p>
+                            <h5>Emma Rodriguez</h5>
+                            <small class="text-muted">Operations Manager, RetailPro</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section">
+            <div class="container">
+                <div class="section-title" data-aos="fade-up">
+                    <h2 style="color: white;">Ready to Get Started?</h2>
+                    <p style="color: rgba(255,255,255,0.8);">Contact our team to learn how CRMPro can transform your business</p>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="row g-4 mb-5">
+                            <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="100">
+                                <div class="mb-3">
+                                    <i class="bi bi-geo-alt" style="font-size: 2rem;"></i>
+                                </div>
+                                <h5>Visit Us</h5>
+                                <p>123 Business Ave<br>New York, NY 10001</p>
+                            </div>
+                            <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="200">
+                                <div class="mb-3">
+                                    <i class="bi bi-telephone" style="font-size: 2rem;"></i>
+                                </div>
+                                <h5>Call Us</h5>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                            <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="300">
+                                <div class="mb-3">
+                                    <i class="bi bi-envelope" style="font-size: 2rem;"></i>
+                                </div>
+                                <h5>Email Us</h5>
+                                <p>hello@crmpro.com</p>
+                            </div>
+                        </div>
+
+                        <form class="row g-3" data-aos="fade-up" data-aos-delay="400">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                            <div class="col-12">
+                                <input type="text" class="form-control" placeholder="Company Name" required>
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control" rows="5" placeholder="How can we help you?" required></textarea>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button type="submit" class="btn btn-light btn-lg px-5">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+  <footer id="footer" class="footer dark-background">
+
+  <div class="container footer-top">
+    <div class="row gy-4">
+      <div class="col-lg-4 col-md-6 footer-about">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <span class="sitename">CRMSystem</span>
+        </a>
+        <div class="footer-contact pt-3">
+          <p>123 Business Park</p>
+          <p>San Francisco, CA 94107</p>
+          <p class="mt-3"><strong>Phone:</strong> <span>+1 800 123 4567</span></p>
+          <p><strong>Email:</strong> <span>support@crmsystem.com</span></p>
+        </div>
+        <div class="social-links d-flex mt-4">
+          <a href="#"><i class="bi bi-twitter-x"></i></a>
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-md-3 footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><i class="bi bi-chevron-right"></i> <a href="#">Dashboard</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#">Leads</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#">Customers</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#">Reports</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#">Settings</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-2 col-md-3 footer-links">
+        <h4>Features</h4>
+        <ul>
+          <li><i class="bi bi-chevron-right"></i> <a href="#">Lead Management</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#">Sales Tracking</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#">Customer Support</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#">Analytics</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#">Integration</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-4 col-md-12 footer-newsletter">
+        <h4>Stay Updated</h4>
+        <p>Subscribe for CRM updates, tips, and best practices.</p>
+        <form action="forms/newsletter.php" method="post" class="php-email-form">
+          <div class="newsletter-form"><input type="email" name="email" placeholder="Your Email"><input type="submit" value="Subscribe"></div>
+          <div class="loading">Loading</div>
+          <div class="error-message"></div>
+          <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container copyright text-center mt-4">
+    <p>© <span>Copyright</span> <strong class="px-1 sitename">CRMSystem</strong> <span>All Rights Reserved</span></p>
+    <div class="credits">
+      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> • Distributed by <a href="https://themewagon.com">ThemeWagon</a>
+    </div>
+  </div>
+
+</footer>
+
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
